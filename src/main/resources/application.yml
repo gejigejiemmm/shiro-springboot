@@ -1,0 +1,13 @@
+spring:
+  thymeleaf:
+    cache: false
+    prefix: classpath:/templates/ #扫描 静态资源的路径
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/shiro?serverTimezone=Asia/Shanghai&useUnicode=yes
+    username: root
+    password: 123456
+
+
+mybatis:
+  type-aliases-package: cn.edu.zzuli.shirospringboot.bean
